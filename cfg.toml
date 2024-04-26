@@ -1,0 +1,5 @@
+[wireless-std]
+wifi_ssid = ""
+wifi_pass = ""
+espnow_channel = 1
+max_chunk_size = 250

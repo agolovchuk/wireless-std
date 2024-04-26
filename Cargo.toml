@@ -1,0 +1,12 @@
+[package]
+name = "wireless-std"
+version = "0.1.1"
+authors = ["Alexander Golovchuk <a.golovchuk@gmail.com>"]
+edition = "2021"
+resolver = "2"
+rust-version = "1.71"
+
+[dependencies]
+anyhow = "1.0.82"
+esp-idf-svc = { version = "0.48", default-features = false }
+toml-cfg = "0.2.0"
